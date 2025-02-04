@@ -1,0 +1,3 @@
+# Subtle Zero Division Issue in Average Calculation
+
+This repository demonstrates a subtle bug related to zero division in an average calculation function written in Python.  The function correctly handles empty lists, but it doesn't explicitly check for lists containing only zeros, which could lead to unexpected behavior in some contexts.  The solution provided demonstrates a more robust approach to handle this edge case.
